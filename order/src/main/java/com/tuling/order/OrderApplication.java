@@ -7,6 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 public class OrderApplication {
+    //启动类
     public static void main(String[] args) {
         SpringApplication.run(OrderApplication.class,args);
     }
